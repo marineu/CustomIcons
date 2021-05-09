@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		034F074226480142006C5155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F074126480142006C5155 /* AppDelegate.swift */; };
 		034F074426480142006C5155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F074326480142006C5155 /* SceneDelegate.swift */; };
-		034F074626480142006C5155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F074526480142006C5155 /* ViewController.swift */; };
 		034F074B26480142006C5155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F074A26480142006C5155 /* Assets.xcassets */; };
 		034F074E26480142006C5155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F074C26480142006C5155 /* LaunchScreen.storyboard */; };
 		034F075926480143006C5155 /* CustomIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F075826480143006C5155 /* CustomIconsTests.swift */; };
 		034F076426480143006C5155 /* CustomIconsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F076326480143006C5155 /* CustomIconsUITests.swift */; };
+		03B428AD264840C700E0754E /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B428AC264840C700E0754E /* IconCell.swift */; };
+		03B428AF2648496700E0754E /* IconAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B428AE2648496700E0754E /* IconAsyncView.swift */; };
+		03B428B226485BB300E0754E /* UIImage+resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B428B126485BB300E0754E /* UIImage+resize.swift */; };
+		03B428B526486E1800E0754E /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B428B426486E1800E0754E /* AlertUtils.swift */; };
+		03C6512926480546008AD93C /* IconsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6512826480546008AD93C /* IconsManager.swift */; };
+		03C6512D26480636008AD93C /* IconsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6512C26480636008AD93C /* IconsListViewController.swift */; };
+		03C6512F264829EE008AD93C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6512E264829EE008AD93C /* Constants.swift */; };
+		03C6513226482F48008AD93C /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6513126482F48008AD93C /* Icon.swift */; };
+		03C65134264831F2008AD93C /* IconsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C65133264831F2008AD93C /* IconsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,6 @@
 		034F073E26480142006C5155 /* CustomIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F074126480142006C5155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034F074326480142006C5155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		034F074526480142006C5155 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		034F074A26480142006C5155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034F074D26480142006C5155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034F074F26480142006C5155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		034F075F26480143006C5155 /* CustomIconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomIconsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F076326480143006C5155 /* CustomIconsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconsUITests.swift; sourceTree = "<group>"; };
 		034F076526480143006C5155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B428AC264840C700E0754E /* IconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		03B428AE2648496700E0754E /* IconAsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconAsyncView.swift; sourceTree = "<group>"; };
+		03B428B126485BB300E0754E /* UIImage+resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+resize.swift"; sourceTree = "<group>"; };
+		03B428B426486E1800E0754E /* AlertUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
+		03C6512826480546008AD93C /* IconsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsManager.swift; sourceTree = "<group>"; };
+		03C6512C26480636008AD93C /* IconsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsListViewController.swift; sourceTree = "<group>"; };
+		03C6512E264829EE008AD93C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		03C6513126482F48008AD93C /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		03C65133264831F2008AD93C /* IconsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +115,7 @@
 			children = (
 				034F074126480142006C5155 /* AppDelegate.swift */,
 				034F074326480142006C5155 /* SceneDelegate.swift */,
-				034F074526480142006C5155 /* ViewController.swift */,
+				03C65125264804F3008AD93C /* Modules */,
 				034F074A26480142006C5155 /* Assets.xcassets */,
 				034F074C26480142006C5155 /* LaunchScreen.storyboard */,
 				034F074F26480142006C5155 /* Info.plist */,
@@ -123,6 +139,86 @@
 				034F076526480143006C5155 /* Info.plist */,
 			);
 			path = CustomIconsUITests;
+			sourceTree = "<group>";
+		};
+		03B428AB2648406600E0754E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03B428AC264840C700E0754E /* IconCell.swift */,
+				03B428AE2648496700E0754E /* IconAsyncView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03B428B026485B9400E0754E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03B428B126485BB300E0754E /* UIImage+resize.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		03B428B326486E0300E0754E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03B428B426486E1800E0754E /* AlertUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		03C65125264804F3008AD93C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				03C6512E264829EE008AD93C /* Constants.swift */,
+				03C6512626480507008AD93C /* Common */,
+				03C6512A26480557008AD93C /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		03C6512626480507008AD93C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				03B428B326486E0300E0754E /* Utils */,
+				03B428B026485B9400E0754E /* Extensions */,
+				03C6513026482F1C008AD93C /* Models */,
+				03C651272648051A008AD93C /* Services */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		03C651272648051A008AD93C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				03C6512826480546008AD93C /* IconsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		03C6512A26480557008AD93C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03B428AB2648406600E0754E /* Views */,
+				03C6512B264805A7008AD93C /* ViewControllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		03C6512B264805A7008AD93C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03C6512C26480636008AD93C /* IconsListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		03C6513026482F1C008AD93C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03C6513126482F48008AD93C /* Icon.swift */,
+				03C65133264831F2008AD93C /* IconsResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034F074626480142006C5155 /* ViewController.swift in Sources */,
+				03C6513226482F48008AD93C /* Icon.swift in Sources */,
+				03C6512F264829EE008AD93C /* Constants.swift in Sources */,
+				03B428AD264840C700E0754E /* IconCell.swift in Sources */,
+				03C6512926480546008AD93C /* IconsManager.swift in Sources */,
+				03B428AF2648496700E0754E /* IconAsyncView.swift in Sources */,
+				03C6512D26480636008AD93C /* IconsListViewController.swift in Sources */,
 				034F074226480142006C5155 /* AppDelegate.swift in Sources */,
+				03C65134264831F2008AD93C /* IconsResponse.swift in Sources */,
+				03B428B526486E1800E0754E /* AlertUtils.swift in Sources */,
 				034F074426480142006C5155 /* SceneDelegate.swift in Sources */,
+				03B428B226485BB300E0754E /* UIImage+resize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
